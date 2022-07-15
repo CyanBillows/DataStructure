@@ -1,9 +1,10 @@
-#include <iostream>
-
-#define N 10
 //循环队列，最大size = N-1(为区分列满和列空条件，入队时rear!=head)，浪费一个空间
 //解决方案: 1.添加size成员变量，此时列满为size ==N,列空 size == 0
 //        2.添加bool tag,为0表示最近一次执行的是删除操作，只有删除才可能队空rear == head && tag == 0，插入才可能队满
+#include <iostream>
+
+#define N 10
+
 template <class T>
 class Queue{
 private:
