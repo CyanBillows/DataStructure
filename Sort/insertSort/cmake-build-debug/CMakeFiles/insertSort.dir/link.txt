@@ -1,0 +1,3 @@
+"D:\IDE\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\insertSort.dir/objects.a
+D:\code\CodeBlocks\MinGW\bin\ar.exe cr CMakeFiles\insertSort.dir/objects.a @CMakeFiles\insertSort.dir\objects1.rsp
+D:\code\CodeBlocks\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\insertSort.dir/objects.a -Wl,--no-whole-archive -o insertSort.exe -Wl,--out-implib,libinsertSort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\insertSort.dir\linklibs.rsp
